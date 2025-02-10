@@ -52,6 +52,10 @@ Adminer доступен по адресу: http://localhost:8093.
 Добавьте токен бота в свой файл .env:
 TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 
+### Добавьте URL,
+куда обращается бот (из описания к тестовому заданию)
+TELEGRAM_API_URL=your-domain.com
+
 ### Установите вебхук 
 Замените https://your-domain.com на свой фактический домен или URL. Запустите следующую команду, 
 чтобы установить WebHook:
