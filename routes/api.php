@@ -19,5 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/telegram/webhook', [\App\Http\Controllers\TelegramController::class, 'handle'])
-    ->middleware(StartSession::class);
+Route::post('/telegram/webhook', [\App\Http\Controllers\TelegramController::class, 'handle']);
